@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.body{
+    height: 50%;
+    width: 85%;
+    background-color: bisque;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.b1{
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    border-radius: 50%;
+    background-image: url(img/ptr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.fgh{
+    font-style: italic;
+}
+
+a{
+    margin: auto;
+}
